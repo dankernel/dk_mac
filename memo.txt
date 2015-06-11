@@ -1,0 +1,26 @@
+1. Smack ebable kernel config.
+
+CONFIG_SECURITY_SMACK
+CONFIG_SECURITY_NETWORK
+CONFIG_NETLABEL
+(source : https://help.ubuntu.com/community/SmackConfiguration)
+
+2. kernel config
+
+sudo make -j 8
+need some option config. select smack.
+
+3. make modules
+
+sudo make modules
+
+4. make modules_install
+
+sudo make modules_install
+
+5. make install 
+
+sudo make install
+
+
+

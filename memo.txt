@@ -23,4 +23,6 @@ sudo make modules_install
 sudo make install
 
 
+git : https://github.com/smack-team/smack
+
 

@@ -22,7 +22,34 @@ sudo make modules_install
 
 sudo make install
 
+6. Reboot to enabled kernel image
+
+If Smack enable. You check [smackfs : ...] in dmesg.
+You can check via printk() where smackfs.c and other files.
+
+#. install Smack 
 
 git : https://github.com/smack-team/smack
+git clone ...
+
+#. Make manual file 
+
+cd doc/
+sudo make install-man1
+man smackctl
+
+#. grub configration (grub2 is optional)
+Edit file to /etc/default/grub
+
+grub2-mkconfig
+
+GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root $([ -x /usr/sbin/rhcrashkernel-param ] && /usr/sbin/rhcrashkernel-param || :) rhgb quiet security=smack smack=1"
+GRUB_DISABLE_RECOVERY="true"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash security=smack smack=1"
+
+
+#. site
+http://schaufler-ca.com/description_from_the_linux_source_tree
+https://help.ubuntu.com/community/SmackConfiguration
 
 

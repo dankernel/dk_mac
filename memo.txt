@@ -27,10 +27,11 @@ sudo make install
 If Smack enable. You check [smackfs : ...] in dmesg.
 You can check via printk() where smackfs.c and other files.
 
-#. install Smack 
+#. install Smack and util
 
 git : https://github.com/smack-team/smack
 git clone ...
+make
 
 #. Make manual file 
 
@@ -38,18 +39,28 @@ cd doc/
 sudo make install-man1
 man smackctl
 
-#. grub configration (grub2 is optional)
-Edit file to /etc/default/grub
+#. grub configration 
 
-grub2-mkconfig
+Edit file to /etc/default/grub. (grub2 is optional)
 
 GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root $([ -x /usr/sbin/rhcrashkernel-param ] && /usr/sbin/rhcrashkernel-param || :) rhgb quiet security=smack smack=1"
-GRUB_DISABLE_RECOVERY="true"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash security=smack smack=1"
 
+If you can't configration grub, you have to edit grub command. when booting.
+add command "security=smack smack=1"
+
+#. Util
+
+sudo ./chsmack -L {file name}   tell to follow the symbolic links
+sudo ./chsmack -a {object} {file name}
+/* TODO : Research object, subject, /etc/smack/accesses */
+
+/* ========== Tail ========= */
 
 #. site
 http://schaufler-ca.com/description_from_the_linux_source_tree
 https://help.ubuntu.com/community/SmackConfiguration
 
-
+http://schaufler-ca.com/description_from_the_linux_source_tree
+1 This web site is old. (git url)
+read kernel documentation.

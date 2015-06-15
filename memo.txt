@@ -64,3 +64,23 @@ https://help.ubuntu.com/community/SmackConfiguration
 http://schaufler-ca.com/description_from_the_linux_source_tree
 1 This web site is old. (git url)
 read kernel documentation.
+
+/* ========== Memo ========== */
+
+sudo attr -S -s SMACK64 -V "tmp.tmp" ./tmp.tmp
+sudo ./chsmack -a tmp ./tmp.tmp
+
+
+sudo ./chsmack -L Makefile
+Makefile access="tmp"
+
+-v --version       output version information and exit
+-h --help          output usage information and exit
+-a --access        set/remove security.SMACK64
+-e --exec          set/remove security.SMACK64EXEC
+-m --mmap          set/remove security.SMACK64MMAP
+-t --transmute     set/remove security.SMACK64TRANSMUTE
+-d --remove        tell to remove the attribute
+-L --dereference   tell to follow the symbolic links
+
+sudo ./chsmack -L {file name}

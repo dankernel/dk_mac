@@ -84,3 +84,10 @@ Makefile access="tmp"
 -L --dereference   tell to follow the symbolic links
 
 sudo ./chsmack -L {file name}
+
+
+
+http://www.admin-magazin.de/Das-Heft/2009/03/MAC-mit-Smack
+독일 사이트
+
+

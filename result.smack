@@ -1,0 +1,106 @@
+515:Jun 15 14:38:52 localhost kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-3.19.6 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root rhgb quiet security=smack smack=1
+603:Jun 15 14:38:52 localhost kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-3.19.6 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root rhgb quiet security=smack smack=1
+624:Jun 15 14:38:52 localhost kernel: [    0.013093] Smack: smack_init OK 
+822:Jun 15 14:38:52 localhost kernel: [    1.706753] smackfs: start 
+823:Jun 15 14:38:52 localhost kernel: [    1.706814] smackfs: End 
+1294:Jun 15 14:36:46 localhost systemd: Unmounting /smack...
+1311:Jun 15 14:36:46 localhost systemd: Unmounted /smack.
+1361:Jun 15 14:38:25 localhost kernel: Command line: BOOT_IMAGE=/vmlinuz-3.19.6 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root rhgb quiet security=smack smack=1
+1449:Jun 15 14:38:25 localhost kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-3.19.6 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root rhgb quiet security=smack smack=1
+1470:Jun 15 14:38:25 localhost kernel: Smack: smack_init OK 
+1668:Jun 15 14:38:25 localhost kernel: smackfs: start 
+1669:Jun 15 14:38:25 localhost kernel: smackfs: End 
+2077:Jun 15 14:38:31 localhost systemd: Mounting /smack...
+2079:Jun 15 14:38:31 localhost systemd: Mounted /smack.
+4724:Jun 17 09:46:43 localhost kernel: [    0.013097] Smack: smack_init OK 
+4922:Jun 17 09:46:43 localhost kernel: [    1.707161] smackfs: start 
+4923:Jun 17 09:46:43 localhost kernel: [    1.707226] smackfs: End 
+5399:Jun 15 14:36:46 localhost systemd: Unmounting /smack...
+5416:Jun 15 14:36:46 localhost systemd: Unmounted /smack.
+5454:Jun 15 14:38:25 localhost kernel: Command line: BOOT_IMAGE=/vmlinuz-3.19.6 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root rhgb quiet security=smack smack=1
+5542:Jun 15 14:38:25 localhost kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-3.19.6 root=/dev/mapper/fedora-root ro rd.lvm.lv=fedora/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=fedora/root rhgb quiet security=smack smack=1
+5563:Jun 15 14:38:25 localhost kernel: Smack: smack_init OK 
+5761:Jun 15 14:38:25 localhost kernel: smackfs: start 
+5762:Jun 15 14:38:25 localhost kernel: smackfs: End 
+6182:Jun 15 14:38:31 localhost systemd: Mounting /smack...
+6184:Jun 15 14:38:31 localhost systemd: Mounted /smack.
+8822:Jun 17 09:46:18 localhost kernel: Smack: smack_init OK 
+9020:Jun 17 09:46:18 localhost kernel: smackfs: start 
+9021:Jun 17 09:46:18 localhost kernel: smackfs: End 
+9436:Jun 17 09:46:27 localhost systemd: Mounting /smack...
+9438:Jun 17 09:46:27 localhost systemd: Mounted /smack.
+10233:Jun 17 09:51:39 localhost kernel: [    1.705830] smackfs: I <3 CJM init 
+10234:Jun 17 09:51:39 localhost kernel: [    1.705889] smackfs: I <3 JSJ Ok. 
+10749:Jun 17 09:49:39 localhost systemd: Unmounting /smack...
+10766:Jun 17 09:49:39 localhost systemd: Unmounted /smack.
+11520:Jun 17 09:50:07 localhost systemd: Mounting /smack...
+11522:Jun 17 09:50:07 localhost mount: mount: unknown filesystem type 'smackfs'
+11523:Jun 17 09:50:07 localhost systemd: smack.mount mount process exited, code=exited status=32
+11524:Jun 17 09:50:07 localhost systemd: Failed to mount /smack.
+11532:Jun 17 09:50:07 localhost systemd: Unit smack.mount entered failed state.
+12132:Jun 17 09:51:15 localhost kernel: smackfs: I <3 CJM init 
+12133:Jun 17 09:51:15 localhost kernel: smackfs: I <3 JSJ Ok. 
+12543:Jun 17 09:51:21 localhost systemd: Mounting /smack...
+12545:Jun 17 09:51:21 localhost systemd: Mounted /smack.
+13196:Jun 17 11:18:37 localhost kernel: [    0.013083] Smack: smack_init OK 
+13394:Jun 17 11:18:37 localhost kernel: [    1.706829] smackfs: start 
+13395:Jun 17 11:18:37 localhost kernel: [    1.706887] smackfs: End 
+13887:Jun 17 09:55:35 localhost systemd: Unmounting /smack...
+13913:Jun 17 09:55:35 localhost systemd: Unmounted /smack.
+14671:Jun 17 09:55:57 localhost systemd: Mounting /smack...
+14674:Jun 17 09:55:57 localhost mount: mount: unknown filesystem type 'smackfs'
+14675:Jun 17 09:55:57 localhost systemd: smack.mount mount process exited, code=exited status=32
+14676:Jun 17 09:55:57 localhost systemd: Failed to mount /smack.
+14684:Jun 17 09:55:57 localhost systemd: Unit smack.mount entered failed state.
+14864:Jun 17 09:56:38 localhost systemd: Mounting /smack...
+14869:Jun 17 09:56:38 localhost systemd: smack.mount mount process exited, code=exited status=32
+14870:Jun 17 09:56:38 localhost systemd: Failed to mount /smack.
+14878:Jun 17 09:56:38 localhost systemd: Unit smack.mount entered failed state.
+14933:Jun 17 09:56:38 localhost mount: mount: unknown filesystem type 'smackfs'
+14955:Jun 17 09:56:40 localhost systemd: Mounting /smack...
+14958:Jun 17 09:56:40 localhost systemd: smack.mount mount process exited, code=exited status=32
+14959:Jun 17 09:56:40 localhost systemd: Failed to mount /smack.
+14967:Jun 17 09:56:40 localhost systemd: Unit smack.mount entered failed state.
+15024:Jun 17 09:56:40 localhost mount: mount: unknown filesystem type 'smackfs'
+15885:Jun 17 09:59:10 localhost systemd: Mounting /smack...
+15887:Jun 17 09:59:10 localhost mount: mount: unknown filesystem type 'smackfs'
+15888:Jun 17 09:59:10 localhost systemd: smack.mount mount process exited, code=exited status=32
+15889:Jun 17 09:59:10 localhost systemd: Failed to mount /smack.
+15897:Jun 17 09:59:10 localhost systemd: Unit smack.mount entered failed state.
+16273:Jun 17 11:18:19 localhost kernel: Smack: smack_init OK 
+16471:Jun 17 11:18:19 localhost kernel: smackfs: start 
+16472:Jun 17 11:18:19 localhost kernel: smackfs: End 
+16882:Jun 17 11:18:25 localhost systemd: Mounting /smack...
+16886:Jun 17 11:18:25 localhost systemd: Mounted /smack.
+17468:Jun 17 11:19:59 localhost kernel: [    0.013116] Smack: smack_init OK 
+17666:Jun 17 11:19:59 localhost kernel: [    1.704969] smackfs: start 
+17667:Jun 17 11:19:59 localhost kernel: [    1.705028] smackfs: End 
+18164:Jun 17 09:55:35 localhost systemd: Unmounting /smack...
+18190:Jun 17 09:55:35 localhost systemd: Unmounted /smack.
+18948:Jun 17 09:55:57 localhost systemd: Mounting /smack...
+18951:Jun 17 09:55:57 localhost mount: mount: unknown filesystem type 'smackfs'
+18952:Jun 17 09:55:57 localhost systemd: smack.mount mount process exited, code=exited status=32
+18953:Jun 17 09:55:57 localhost systemd: Failed to mount /smack.
+18961:Jun 17 09:55:57 localhost systemd: Unit smack.mount entered failed state.
+19141:Jun 17 09:56:38 localhost systemd: Mounting /smack...
+19146:Jun 17 09:56:38 localhost systemd: smack.mount mount process exited, code=exited status=32
+19147:Jun 17 09:56:38 localhost systemd: Failed to mount /smack.
+19155:Jun 17 09:56:38 localhost systemd: Unit smack.mount entered failed state.
+19210:Jun 17 09:56:38 localhost mount: mount: unknown filesystem type 'smackfs'
+19232:Jun 17 09:56:40 localhost systemd: Mounting /smack...
+19235:Jun 17 09:56:40 localhost systemd: smack.mount mount process exited, code=exited status=32
+19236:Jun 17 09:56:40 localhost systemd: Failed to mount /smack.
+19244:Jun 17 09:56:40 localhost systemd: Unit smack.mount entered failed state.
+19301:Jun 17 09:56:40 localhost mount: mount: unknown filesystem type 'smackfs'
+20162:Jun 17 09:59:10 localhost systemd: Mounting /smack...
+20164:Jun 17 09:59:10 localhost mount: mount: unknown filesystem type 'smackfs'
+20165:Jun 17 09:59:10 localhost systemd: smack.mount mount process exited, code=exited status=32
+20166:Jun 17 09:59:10 localhost systemd: Failed to mount /smack.
+20174:Jun 17 09:59:10 localhost systemd: Unit smack.mount entered failed state.
+20550:Jun 17 11:18:19 localhost kernel: Smack: smack_init OK 
+20748:Jun 17 11:18:19 localhost kernel: smackfs: start 
+20749:Jun 17 11:18:19 localhost kernel: smackfs: End 
+21159:Jun 17 11:18:25 localhost systemd: Mounting /smack...
+21163:Jun 17 11:18:25 localhost systemd: Mounted /smack.
+21700:Jun 17 11:19:41 localhost kernel: Smack: smack_init OK 
+21898:Jun 17 11:19:4
